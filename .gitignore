@@ -1,0 +1,10 @@
+.env
+/coverage
+/dist
+/logs
+/.idea
+/volumes
+/node_modules
+/.vscode
+/.keys
+/keys

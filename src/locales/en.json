@@ -1,0 +1,6 @@
+{
+  "validation_error": "Validation error",
+  "invalid_user_password_error": "User e/or password invalid error",
+  "authentication_error": "Authentication error",
+  "invalid_user_password": "invalid_user_password"
+}
