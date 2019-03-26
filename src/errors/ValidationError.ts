@@ -1,4 +1,5 @@
 import {i18n} from "../lib/i18n";
+import {IValidationError} from "../../types";
 
 export class ValidationError {
     message: string;
@@ -6,7 +7,7 @@ export class ValidationError {
     status: number;
     level: string;
 
-    constructor(errors = []) {
+    constructor(errors: IValidationError[] = []) {
         this.message = i18n.__(`validation_error`);
         this.data = {errors};
         this.status = 422;

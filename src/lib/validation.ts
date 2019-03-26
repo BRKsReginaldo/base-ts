@@ -1,9 +1,10 @@
 import {validateAll} from 'indicative'
 import {pick} from 'lodash'
 import {ValidationError} from '../errors'
+import {IValidationError} from "../../types";
 
 type ValidationResult = {
-    errors?: any
+    errors?: IValidationError[]
     data?: any
 }
 
